@@ -12,13 +12,13 @@ body {
   text-align: center;
 }
 
-#startTimeout {
+.start-button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
 
-#countdown {
+.countdown {
   margin-top: 20px;
   font-size: 24px;
   font-weight: bold;

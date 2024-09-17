@@ -1,5 +1,5 @@
-document.getElementById("startTimeout").addEventListener("click", function () {
-  const countdownElement = document.getElementById("countdown");
+document.querySelector(".start-button").addEventListener("click", function () {
+  const countdownElement = document.querySelector(".countdown");
   let countdown = 5;
 
   function updateCountdown() {
